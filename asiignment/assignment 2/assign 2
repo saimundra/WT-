@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a4a571f028.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section id="showcase">
+        <div class="con-1">
+            <h1><span class="primary">WEB</span> BROWSERS</h1>
+        </div>
+        <h2>The Followings are the <span class="primary">Best Web Browsers</span> of <del>2018</del> 2022</h2>
+        <div class="box-1 bg-light">
+            <i class="fa-brands fa-internet-explorer fa-3x"></i>
+            <h3>Internet Explorer</h3>
+            <p>Internet Explorer is a discontinued series of graphical web browsers developed by Microsoft which was used in the Windows line of operating systems. Starting in 1995, It was first released as part of the add-on package Plus! for Windows 95
+                that year. </p>
+        </div>
+        <div class="clr"></div>
+        <div class="box-2 bg-primary">
+            <i class="fa-brands fa-chrome fa-3x"></i>
+            <h3>Google Chrome</h3>
+            <p>Google Chrome is a cross-platform web browser developed by Google. It was first released in 2008 for Microsoft Windows, built with free software components from Apple </p>
+        </div>
+        <div class="clr"></div>
+        <div class="box-3 bg-dark">
+            <i class="fa-brands fa-firefox-browser fa-3x"></i>
+            <h3>Mozilla Firefox</h3>
+            <p>Mozilla Firefox, or simply <u>Firefox</u>, is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation. It uses the Gecko rendering engine to display web pages, which implements current
+                and anticipated web standards.</p>
+        </div>
+        <div class="clr"></div>
+        <div class="box-4 bg-light">
+            <i class="fa-brands fa-safari fa-3x"></i>
+            <h3>Safari</h3>
+            <p>Safari is a <u>graphical</u> web browser developed by Apple. It is primarily based on open-source software, and mainly WebKit. It succeeded Netscape Navigator, Cyberdog and Internet Explorer for Mac as the default web browser for Macintosh
+                computers.
+            </p>
+        </div>
+        <div class="clr"></div>
+        <div class="box-5 bg-dark">
+            <i class="fa-brands fa-edge fa-3x"></i>
+            <h3> Microsoft Edge</h3>
+            <p>Microsoft Edge is a proprietary cross-platform web browser created by Microsoft. It was first released in 2015, as part of Windows 10 and Xbox One, and later ported to other platforms as a fork of Google's Chromium open-source project: Android
+                and iOS, macOS, older Windows versions, and most recently Linux.</p>
+        </div>
+        <div class="clr"></div>
+        <div class="box-6 bg-primary">
+            <i class="fa-brands fa-opera fa-3x"></i>
+            <h3>Opera</h3>
+            <p>Opera is a multi-platform web browser developed by its namesake company Opera. The browser is based on Chromium, but distinguishes itself from other Chromium-based browsers through its user interface and other features.</p>
+        </div>
+    </section>
+    <div class="clr"></div>
+    <footer id="main-footer">
+        <p>Web Browsers &copy; 2022, ALL RIGHT RESERVED</p>
+    </footer>
+</body>
+
+</html>
