@@ -1,0 +1,103 @@
+/* CSS RESET */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.7em;
+    background: url('./photo.png') no-repeat center center/cover;
+    overflow: scroll;
+}
+
+
+/* Utilitis Classes */
+
+.bg-dark {
+    background: #333;
+    color: #fff;
+}
+
+.bg-light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-primary {
+    background: #f7c08a;
+    color: #333;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin: 30px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    margin: 10px 0px;
+}
+
+
+/* SECTION */
+
+#showcase .primary {
+    color: #ccc;
+}
+
+.clr {
+    clear: both;
+}
+
+
+/* DIV BOXES */
+
+#showcase .box-1,
+.box-2,
+.box-3,
+.box-4,
+.box-5,
+.box-6,
+.box-7 {
+    text-align: left;
+    margin: 10px 20px;
+    border: 1px solid black;
+    height: 200px;
+    padding: 20px;
+    opacity: 0.9;
+    max-width: 1100px;
+}
+
+#showcase h3 {
+    margin: 10px 0px;
+}
+
+.box-1,
+.box-3,
+.box-5 {
+    float: left;
+    width: 60%;
+}
+
+.box-2,
+.box-4,
+.box-6 {
+    float: right;
+    width: 60%;
+}
+
+
+/* FOOTER */
+
+#main-footer {
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 20px;
+}
