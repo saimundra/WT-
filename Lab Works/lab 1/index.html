@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a4a571f028.js" crossorigin="anonymous"></script>
+    <title>Lab 1</title>
+    <style>
+        /* * {
+            box-sizing: border-box;
+        }
+         */
+        
+        body {
+            font-family: 'Brush Script MT', cursive;
+            background: #000;
+            color: #fff;
+            width: 100vw;
+        }
+        
+        ul {
+            list-style: square;
+            margin-bottom: 20px;
+        }
+        
+        .hero {
+            background: url('./vegetables.jpg') no-repeat center center/cover;
+            height: 100vh;
+            width: 100vw;
+            position: relative;
+            color: #fff;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+        }
+        
+        .hero .navbar {
+            display: flex;
+            background: #333;
+            width: 100vw;
+            color: #fff;
+            align-items: center;
+            height: 70px;
+            padding: 0 30px;
+            opacity: 0.8;
+        }
+        
+        img {
+            width: 50px;
+            height: 50px;
+            border-radius: 100%;
+        }
+        
+        .content {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bolder;
+        }
+        
+        .content h1 {
+            font-family: 'Brush Script MT', cursive;
+            font-size: 50px;
+            font-weight: bolder;
+            max-width: 1000px;
+            line-height: 0.9;
+        }
+        
+        .hero * {
+            font-weight: bolder;
+            z-index: 12;
+        }
+        
+        .hero .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        ol {
+            font-size: 20px;
+        }
+        /* UTILITITES CLASS */
+        
+        .logo {
+            padding: 0 20px;
+        }
+        
+        .text-primary {
+            color: rgb(0, 255, 30)
+        }
+        /* video {
+            margin-top: -50px;
+            margin-right: 20px;
+        } */
+        
+        nav {
+            margin-top: -50px;
+        }
+        
+        iframe {
+            color: #fff;
+        }
+        
+        .extra {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #fff;
+            border-radius: 10px;
+            border: none;
+            width: 110px;
+            background: #49c1a2;
+            padding: 10px 20px;
+            text-align: center;
+            margin-bottom: 10px;
+            ;
+        }
+        
+        a:hover {
+            background-color: lightgreen;
+            font-weight: 100;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="hero">
+        <div class="navbar">
+            <img src="./1_veg.jpg " alt="vegetables ">
+            <h1 class="logo"><span class=" text-primary ">Vegetables</span></h1>
+        </div>
+        <div class="content ">
+            <h1><span class="text-primary ">Vegetables are organized into 5 subgroups</span> based on their nutrient content.
+            </h1>
+            <nav>
+                <ol>
+                    <li><em>Dark Green Vegetables</em>
+                        <ul>
+                            <li>Bok Choy</li>
+                            <li>Broccoli</li>
+                            <li>Collard Greens</li>
+                        </ul>
+                    </li>
+                    <li><em>Starchy Vegetables</em>
+                        <ul>
+                            <li>Corn</li>
+                            <li>White Potatoes</li>
+                            <li>Sweet Potatoes</li>
+                        </ul>
+                    </li>
+                    <li><em>Red and Orange Vegetables</em>
+                        <ul>
+                            <li>Acorn squash</li>
+                            <li>Butternut squash</li>
+                            <li>Carrots</li>
+                        </ul>
+                    </li>
+                </ol>
+                </li>
+                <div class="extra">
+                    <a href="https://youtu.be/8swVD4mGsKE" target="_blank">Video Section</a>
+                    <a href="./audio.html" target="_blank">Audio Section</a>
+                    <iframe src="./iframe.html" height="150px" width="200px" title="Iframe Example"></iframe>
+                </div>
+            </nav>
+        </div>
+    </header>
+</body>
+
+</html>
