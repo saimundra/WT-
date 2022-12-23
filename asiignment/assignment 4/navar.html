@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <script src="https://kit.fontawesome.com/a4a571f028.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        body {
+            background: #f3f4f6;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        
+        ul {
+            list-style: none;
+        }
+        
+        li {
+            display: inline-block;
+        }
+        
+        div {
+            display: inline-block;
+        }
+        
+        header {
+            margin: auto;
+            width: 100%;
+        }
+        
+        .container {
+            /* margin: 15px 20px; */
+            background: #fff;
+            max-width: 100%;
+            font-size: 18px;
+            font-weight: bolder;
+            color: #27272b;
+            border-bottom: 1px solid #e4e4e6;
+        }
+        
+        .container .right i {
+            position: relative;
+            top: 2px;
+            left: -450px;
+        }
+        
+        .container .right input {
+            padding: 10px;
+            text-align: left;
+            width: 400px;
+            padding-left: 60px;
+            /* padding: 8px; */
+        }
+        
+        .container .rightcorner i {
+            position: relative;
+            left: 0px;
+            top: 0px;
+        }
+        
+        .middle li {
+            margin: 36px;
+            color: #aaadb6;
+        }
+        
+        .right {
+            margin-left: 500px;
+        }
+        
+        .rightcorner img {
+            position: relative;
+            top: 6px;
+            left: 13px;
+            margin: 0px 20px;
+            border-radius: 50%;
+        }
+        
+        .left {
+            margin: 0px 20px;
+            margin-left: 0px;
+        }
+        
+        .middle .current {
+            color: #000;
+            border-bottom: solid 2px rgb(91, 55, 280);
+            opacity: 100%;
+        }
+        
+        .logo {
+            position: relative;
+            top: 5px;
+            left: 16px;
+            margin: 0px 15px;
+        }
+        
+        a {
+            color: #000;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="./logo.png" alt="logo" width="30px" height="30px">
+            </div>
+            <div class="left">
+                <h1>workflow</h1>
+            </div>
+            <div class="middle">
+                <ul>
+                    <li class="current"><a href="#">Dashboard</a></li>
+                    <li>Team</li>
+                    <li>Project</li>
+                    <li>Calendar</li>
+                </ul>
+            </div>
+            <div class="right">
+                <form>
+                    <input type="text" placeholder="Search" name="search">
+                    <i class="fa fa-search"></i>
+                </form>
+            </div>
+            <div class="rightcorner">
+                <i class="fa-regular fa-bell"></i>
+                <img src="./photo.png" alt="boy_with_jacket" width="25px" height="25px">
+            </div>
+        </div>
+
+    </header>
+</body>
+
+</html>
